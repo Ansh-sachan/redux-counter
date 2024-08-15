@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/redux@4.2.1/dist/redux.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/redux@5.0.1/dist/redux.legacy-esm.min.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display">0</h1>
+      <div class="flex">
+        <div class="step">
+          <h2>Steps</h2>
+          <span data-step="5">5</span>
+          <span data-step="10">10</span>
+          <span data-step="15">15</span>
+        </div>
+        <div class="max-value">
+          <h2>Max-Value</h2>
+          <span data-max="5">5</span>
+          <span data-max="100">100</span>
+          <span data-max="200">200</span>
+        </div>
+      </div>
+      <div class="flex">
+        <button class="increment">Increment</button>
+        <button class="decrement">Decrement</button>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
